@@ -27,3 +27,15 @@ def update_grid(grid):
             else:
                 new_grid[i][j] = 1 if neighbors == 3 else 0
     return new_grid
+
+def main():
+    width, height = 10, 10  # Grid size
+    grid = create_grid(width, height)
+
+    while True:
+        display_grid(grid)
+        grid = update_grid(grid)
+        input("Press Enter to continue...")
+
+if __name__ == "__main__":
+    main()
