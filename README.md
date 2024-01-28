@@ -11,7 +11,7 @@ To run this project, you will need Python installed on your machine.
 
 1. Clone the repository to your local machine: git clone <repository-url>
 2. Navigate to the cloned directory.
-3. Run the script using Python:python script_name.py
+3. Run the script using Python:python script_name.py or you can simply open it in VScode or something similar and press run 
 
 Replace `<repository-url>` with the actual URL of your Git repository and `script_name.py` with the actual name of your Python script.
 
