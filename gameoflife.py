@@ -20,6 +20,8 @@ def count_neighbors(grid, x, y):
 def update_grid(grid):
     new_grid = create_grid(len(grid[0]), len(grid))
     for i, row in enumerate(grid):
+
+        
         for j, cell in enumerate(row):
             neighbors = count_neighbors(grid, i, j)
             if cell:
